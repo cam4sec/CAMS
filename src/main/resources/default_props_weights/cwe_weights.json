@@ -1,0 +1,343 @@
+[
+    {
+        "property_name": "command",
+        "cwe_weights": [
+            {
+                "cwe": "CWE-77",
+                "average_weight": 8.25,
+                "penalized_weight": 8.25,
+                "harmonic_weight": 7.5,
+                "cve_count": 1660,
+                "latest_date": "2025-04-04T14:15:25.453",
+                "oldest_date": "2005-09-02T23:03:00.000"
+            },
+            {
+                "cwe": "CWE-88",
+                "average_weight": 7.58,
+                "penalized_weight": 7.54,
+                "harmonic_weight": 10.0,
+                "cve_count": 201,
+                "latest_date": "2025-03-26T00:15:13.270",
+                "oldest_date": "1994-05-23T04:00:00.000"
+            },
+            {
+                "cwe": "CWE-78",
+                "average_weight": 8.39,
+                "penalized_weight": 8.38,
+                "harmonic_weight": 10.0,
+                "cve_count": 3653,
+                "latest_date": "2025-04-09T09:15:16.977",
+                "oldest_date": "1996-03-20T05:00:00.000"
+            }
+        ]
+    },
+    {
+        "property_name": "log",
+        "cwe_weights": [
+            {
+                "cwe": "CWE-117",
+                "average_weight": 5.57,
+                "penalized_weight": 5.34,
+                "harmonic_weight": 3.3,
+                "cve_count": 23,
+                "latest_date": "2025-04-08T14:15:32.097",
+                "oldest_date": "2018-08-21T18:29:00.263"
+            },
+            {
+                "cwe": "CWE-209",
+                "average_weight": 5.35,
+                "penalized_weight": 5.34,
+                "harmonic_weight": 5.0,
+                "cve_count": 382,
+                "latest_date": "2025-04-04T16:15:33.233",
+                "oldest_date": "2001-08-31T04:00:00.000"
+            },
+            {
+                "cwe": "CWE-538",
+                "average_weight": 5.47,
+                "penalized_weight": 5.25,
+                "harmonic_weight": 5.0,
+                "cve_count": 23,
+                "latest_date": "2025-04-04T13:15:46.780",
+                "oldest_date": "2017-07-27T18:29:00.180"
+            },
+            {
+                "cwe": "CWE-532",
+                "average_weight": 5.38,
+                "penalized_weight": 5.37,
+                "harmonic_weight": 5.0,
+                "cve_count": 770,
+                "latest_date": "2025-04-09T16:15:24.770",
+                "oldest_date": "2001-12-31T05:00:00.000"
+            }
+        ]
+    },
+    {
+        "property_name": "path",
+        "cwe_weights": [
+            {
+                "cwe": "CWE-22",
+                "average_weight": 6.67,
+                "penalized_weight": 6.67,
+                "harmonic_weight": 5.0,
+                "cve_count": 6414,
+                "latest_date": "2025-04-10T11:15:45.830",
+                "oldest_date": "2001-02-16T05:00:00.000"
+            },
+            {
+                "cwe": "CWE-706",
+                "average_weight": 7.06,
+                "penalized_weight": 6.95,
+                "harmonic_weight": 5.8,
+                "cve_count": 59,
+                "latest_date": "2025-03-20T18:15:18.907",
+                "oldest_date": "2018-04-19T20:29:00.643"
+            },
+            {
+                "cwe": "CWE-668",
+                "average_weight": 6.22,
+                "penalized_weight": 6.21,
+                "harmonic_weight": 5.0,
+                "cve_count": 598,
+                "latest_date": "2025-02-18T19:15:25.220",
+                "oldest_date": "2001-11-13T05:00:00.000"
+            },
+            {
+                "cwe": "CWE-426",
+                "average_weight": 7.5,
+                "penalized_weight": 7.48,
+                "harmonic_weight": 7.2,
+                "cve_count": 486,
+                "latest_date": "2025-04-08T18:16:03.260",
+                "oldest_date": "2008-08-05T19:41:00.000"
+            },
+            {
+                "cwe": "CWE-36",
+                "average_weight": 6.83,
+                "penalized_weight": 6.43,
+                "harmonic_weight": 6.5,
+                "cve_count": 16,
+                "latest_date": "2025-03-20T10:15:34.377",
+                "oldest_date": "2021-05-07T10:15:08.593"
+            },
+            {
+                "cwe": "CWE-73",
+                "average_weight": 6.46,
+                "penalized_weight": 6.3,
+                "harmonic_weight": 7.5,
+                "cve_count": 40,
+                "latest_date": "2025-04-08T18:16:07.520",
+                "oldest_date": "2020-06-29T12:15:10.303"
+            },
+            {
+                "cwe": "CWE-99",
+                "average_weight": 5.99,
+                "penalized_weight": 5.59,
+                "harmonic_weight": 9.8,
+                "cve_count": 14,
+                "latest_date": "2025-04-08T04:15:31.400",
+                "oldest_date": "2017-02-13T21:59:02.800"
+            }
+        ]
+    },
+    {
+        "property_name": "sql",
+        "cwe_weights": [
+            {
+                "cwe": "CWE-89",
+                "average_weight": 7.59,
+                "penalized_weight": 7.59,
+                "harmonic_weight": 7.5,
+                "cve_count": 13356,
+                "latest_date": "2025-04-10T08:15:21.350",
+                "oldest_date": "2002-10-04T04:00:00.000"
+            },
+            {
+                "cwe": "CWE-943",
+                "average_weight": 7.53,
+                "penalized_weight": 5.65,
+                "harmonic_weight": 9.3,
+                "cve_count": 3,
+                "latest_date": "2024-11-15T17:15:08.277",
+                "oldest_date": "2017-08-23T14:29:00.393"
+            },
+            {
+                "cwe": "CWE-564",
+                "average_weight": 8.8,
+                "penalized_weight": 4.4,
+                "harmonic_weight": 8.8,
+                "cve_count": 1,
+                "latest_date": "2025-03-07T09:15:16.153",
+                "oldest_date": "2025-03-07T09:15:16.153"
+            }
+        ]
+    },
+    {
+        "property_name": "xml",
+        "cwe_weights": [
+            {
+                "cwe": "CWE-91",
+                "average_weight": 7.46,
+                "penalized_weight": 7.37,
+                "harmonic_weight": 7.5,
+                "cve_count": 86,
+                "latest_date": "2025-01-18T16:15:38.897",
+                "oldest_date": "2008-11-13T11:30:01.457"
+            },
+            {
+                "cwe": "CWE-643",
+                "average_weight": 7.5,
+                "penalized_weight": 3.75,
+                "harmonic_weight": 7.5,
+                "cve_count": 1,
+                "latest_date": "2025-03-20T10:15:45.087",
+                "oldest_date": "2022-04-14T21:15:08.180"
+            },
+            {
+                "cwe": "CWE-652",
+                "average_weight": 5.35,
+                "penalized_weight": 3.75,
+                "harmonic_weight": 3.3,
+                "cve_count": 0,
+                "latest_date": "",
+                "oldest_date": ""
+            }
+        ]
+    },
+    {
+        "property_name": "xss",
+        "cwe_weights": [
+            {
+                "cwe": "CWE-79",
+                "average_weight": 5.25,
+                "penalized_weight": 5.25,
+                "harmonic_weight": 4.3,
+                "cve_count": 32680,
+                "latest_date": "2025-04-10T11:15:45.660",
+                "oldest_date": "2000-02-01T05:00:00.000"
+            },
+            {
+                "cwe": "CWE-80",
+                "average_weight": 5.67,
+                "penalized_weight": 5.59,
+                "harmonic_weight": 6.1,
+                "cve_count": 66,
+                "latest_date": "2025-04-10T08:15:19.603",
+                "oldest_date": "2020-03-10T20:15:20.257"
+            },
+            {
+                "cwe": "CWE-81",
+                "average_weight": 4.2,
+                "penalized_weight": 2.8,
+                "harmonic_weight": 6.3,
+                "cve_count": 2,
+                "latest_date": "2025-03-12T16:15:20.353",
+                "oldest_date": "2024-09-30T15:15:06.413"
+            },
+            {
+                "cwe": "CWE-83",
+                "average_weight": 9.0,
+                "penalized_weight": 4.5,
+                "harmonic_weight": 9.0,
+                "cve_count": 1,
+                "latest_date": "2023-05-10T18:15:10.003",
+                "oldest_date": "2023-05-10T18:15:10.003"
+            },
+            {
+                "cwe": "CWE-84",
+                "average_weight": 4.8,
+                "penalized_weight": 2.4,
+                "harmonic_weight": 4.8,
+                "cve_count": 1,
+                "latest_date": "2025-03-31T16:15:25.473",
+                "oldest_date": "2025-03-31T16:15:25.473"
+            },
+            {
+                "cwe": "CWE-85",
+                "average_weight": 6.4,
+                "penalized_weight": 3.2,
+                "harmonic_weight": 6.4,
+                "cve_count": 1,
+                "latest_date": "2025-01-25T06:15:27.860",
+                "oldest_date": "2025-01-25T06:15:27.860"
+            },
+            {
+                "cwe": "CWE-86",
+                "average_weight": 5.4,
+                "penalized_weight": 4.05,
+                "harmonic_weight": 5.4,
+                "cve_count": 3,
+                "latest_date": "2025-01-08T17:15:17.323",
+                "oldest_date": "2025-01-08T17:15:16.990"
+            },
+            {
+                "cwe": "CWE-87",
+                "average_weight": 6.5,
+                "penalized_weight": 4.88,
+                "harmonic_weight": 9.6,
+                "cve_count": 3,
+                "latest_date": "2025-03-27T14:15:54.060",
+                "oldest_date": "2023-06-23T19:15:09.420"
+            }
+        ]
+    },
+    {
+        "property_name": "attack_Surface",
+        "cwe_weights": [
+            {
+                "cwe": "CWE-20",
+                "average_weight": 6.41,
+                "penalized_weight": 6.41,
+                "harmonic_weight": 5.0,
+                "cve_count": 9306,
+                "latest_date": "2025-04-09T20:15:28.490",
+                "oldest_date": "1997-01-01T05:00:00.000"
+            },
+            {
+                "cwe": "CWE-791",
+                "average_weight": 6.9,
+                "penalized_weight": 4.6,
+                "harmonic_weight": 5.3,
+                "cve_count": 2,
+                "latest_date": "2025-03-25T05:15:39.030",
+                "oldest_date": "2025-03-06T20:15:38.920"
+            },
+            {
+                "cwe": "CWE-792",
+                "average_weight": 4.2,
+                "penalized_weight": 2.4,
+                "harmonic_weight": 3.3,
+                "cve_count": 0,
+                "latest_date": "",
+                "oldest_date": ""
+            },
+            {
+                "cwe": "CWE-116",
+                "average_weight": 6.67,
+                "penalized_weight": 6.64,
+                "harmonic_weight": 7.5,
+                "cve_count": 219,
+                "latest_date": "2025-04-09T20:15:29.763",
+                "oldest_date": "2013-11-23T18:55:04.687"
+            },
+            {
+                "cwe": "CWE-838",
+                "average_weight": 6.51,
+                "penalized_weight": 5.7,
+                "harmonic_weight": 7.2,
+                "cve_count": 7,
+                "latest_date": "2024-01-09T22:15:43.400",
+                "oldest_date": "2018-04-09T16:29:00.273"
+            },
+            {
+                "cwe": "CWE-138",
+                "average_weight": 4.2,
+                "penalized_weight": 2.4,
+                "harmonic_weight": 3.3,
+                "cve_count": 0,
+                "latest_date": "",
+                "oldest_date": ""
+            }
+        ]
+    }
+]

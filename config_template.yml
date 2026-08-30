@@ -1,0 +1,43 @@
+appConfiguration: # Mandatory
+  appClassPath: "Application Class Path"  # Mandatory
+  outputRootDir: "Root Directory for Output"  # Mandatory
+  appRootPackage: "Optional: Root Package of the Application that need assessment"  # Optional
+
+securityAssessmentConfig: # Mandatory
+  weaknessCategoriesInfoPath: "Path of the SecPropertiesInfo file" # Mandatory
+
+  srmSources: # Optional by default it takes the default SRMs
+    customSources: # default value is null
+      - priority: 1
+        path: "Path of the Source 1"
+        type: "SECUCHECK OR SWAN"
+      - priority: 2
+        path: "Path of the Source 2"
+        type: "SECUCHECK OR SWAN"
+
+    ignoreDefaultSrms: true # default value is true
+
+  ciaWeights: # Optional default value is 0.33 to all CIA
+    confidentiality: 0.33
+    integrity: 0.33
+    availability: 0.33
+
+  roleRanks: # Optional default value is yet to decide
+    source: 2
+    sink: 1
+    propagator: 4
+    sanitizer: 3
+
+  criticalityLevels: # Mandatory
+    - name: "NON-CRITICAL"
+      from: 0.0
+      to: 0.0
+    - name: "LOW"
+      from: 0.1
+      to: 30.0
+    - name: "MEDIUM"
+      from: 30.1
+      to: 50.0
+    - name: "HIGH"
+      from: 50.1
+      to: 100.0

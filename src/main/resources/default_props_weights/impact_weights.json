@@ -1,0 +1,44 @@
+[
+    {
+        "property_name": "command",
+        "confidentiality_impact": 0.1129,
+        "integrity_impact": 0.1129,
+        "availability_impact": 0.2603
+    },
+    {
+        "property_name": "log",
+        "confidentiality_impact": 0.2603,
+        "integrity_impact": 0.0471,
+        "availability_impact": 0.0471
+    },
+    {
+        "property_name": "path",
+        "confidentiality_impact": 0.163,
+        "integrity_impact": 0.1949,
+        "availability_impact": 0.1129
+    },
+    {
+        "property_name": "sql",
+        "confidentiality_impact": 0.1381,
+        "integrity_impact": 0.163,
+        "availability_impact": 0.1381
+    },
+    {
+        "property_name": "xml",
+        "confidentiality_impact": 0.1949,
+        "integrity_impact": 0.0836,
+        "availability_impact": 0.0836
+    },
+    {
+        "property_name": "xss",
+        "confidentiality_impact": 0.0836,
+        "integrity_impact": 0.1381,
+        "availability_impact": 0.1949
+    },
+    {
+        "property_name": "attack_Surface",
+        "confidentiality_impact": 0.0471,
+        "integrity_impact": 0.2603,
+        "availability_impact": 0.163
+    }
+]

@@ -1,0 +1,7612 @@
+{
+  "methods": [
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getRequestURL",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.StringBuffer",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServlet.doPut",
+      "parameters": [
+        "javax.servlet.http.HttpServletRequest",
+        "javax.servlet.http.HttpServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.isRequestedSessionIdFromCookie",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "boolean",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper._getHttpServletRequest",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.http.HttpServletRequest",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.getWriter",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.io.PrintWriter",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.NoBodyResponse.addHeader",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getAsyncContext",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.AsyncContext",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.NoBodyResponse.setContentLength",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getCookies",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.http.Cookie[]",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.removeAttribute",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getLocalName",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.HttpMethodConstraintElement.HttpMethodConstraintElement",
+      "parameters": [
+        "java.lang.String",
+        "javax.servlet.HttpConstraintElement"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getContentType",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponse.addCookie",
+      "parameters": [
+        "javax.servlet.http.Cookie"
+      ],
+      "signature": "void javax.servlet.http.HttpServletResponse.addCookie(javax.servlet.http.Cookie)",
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "owasp-benchmark",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [],
+      "cwe": [],
+      "known": true,
+      "body": "public abstract void addCookie(Cookie cookie) {}",
+      "javadoc": {
+        "method": "/**\n * Adds the specified cookie to the response.  This method can be called\n * multiple times to set more than one cookie.\n *\n * @param cookie the Cookie to return to the client\n *\n */\n",
+        "class": "/**\n *\n * Extends the {@link ServletResponse} interface to provide HTTP-specific\n * functionality in sending a response.  For example, it has methods\n * to access HTTP headers and cookies.\n *\n * <p>The servlet container creates an <code>HttpServletResponse</code> object\n * and passes it as an argument to the servlet's service methods\n * (<code>doGet</code>, <code>doPost</code>, etc).\n *\n *\n * @author\tVarious\n *\n * @see\t\tjavax.servlet.ServletResponse\n *\n */\n"
+      },
+      "artifacts": {
+        "compiled": "",
+        "sources": "",
+        "identifier": ""
+      },
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": true,
+      "jar": null
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getParts",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.util.Collection",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.isCommitted",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "boolean",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getSession",
+      "parameters": [
+        "boolean"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.http.HttpSession",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getRemoteHost",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "java.util.StringTokenizer.StringTokenizer",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.getContentType",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.HttpServletResponseWrapper",
+      "parameters": [
+        "javax.servlet.http.HttpServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.isRequestedSessionIdValid",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "boolean",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.NoBodyResponse.checkHeader",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.setAttribute",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.Object"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source",
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getScheme",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestAttributeEvent.getValue",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.Object",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponse.setContentLengthLong",
+      "parameters": [
+        "long"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServlet.doPost",
+      "parameters": [
+        "javax.servlet.http.HttpServletRequest",
+        "javax.servlet.http.HttpServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.sendError",
+      "parameters": [
+        "int",
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.setContentLengthLong",
+      "parameters": [
+        "long"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.sendRedirect",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE601"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getServerName",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServlet.service",
+      "parameters": [
+        "javax.servlet.http.HttpServletRequest",
+        "javax.servlet.http.HttpServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getCharacterEncoding",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.getHeader",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getParameter",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getProtocol",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpSessionBindingEvent.HttpSessionBindingEvent",
+      "parameters": [
+        "javax.servlet.http.HttpSession",
+        "java.lang.String",
+        "java.lang.Object"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.AsyncEvent.AsyncEvent",
+      "parameters": [
+        "javax.servlet.AsyncContext",
+        "javax.servlet.ServletRequest",
+        "javax.servlet.ServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.isWrapperFor",
+      "parameters": [
+        "java.lang.Class"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "boolean",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.addDateHeader",
+      "parameters": [
+        "java.lang.String",
+        "long"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.encodeRedirectUrl",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE601"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getServletPath",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.HttpConstraintElement.HttpConstraintElement",
+      "parameters": [
+        "javax.servlet.'annotation'.ServletSecurity$TransportGuarantee",
+        "java.lang.String[]"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.setIntHeader",
+      "parameters": [
+        "java.lang.String",
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponse.setContentType",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.isRequestedSessionIdFromUrl",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "boolean",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "java.lang.System.arraycopy",
+      "parameters": [
+        "java.lang.Object",
+        "int",
+        "java.lang.Object",
+        "int",
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "java.io.PrintWriter.PrintWriter",
+      "parameters": [
+        "java.io.Writer"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.addCookie",
+      "parameters": [
+        "javax.servlet.http.Cookie"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponse.resetBuffer",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponse.reset",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getAttributeNames",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.util.Enumeration",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getMethod",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getLocalAddr",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.NoBodyResponse.<clinit>",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.startAsync",
+      "parameters": [
+        "javax.servlet.ServletRequest",
+        "javax.servlet.ServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source",
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.AsyncContext",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.NoBodyOutputStream.setWriteListener",
+      "parameters": [
+        "javax.servlet.WriteListener"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getLocales",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.util.Enumeration",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.getHeaderNames",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.util.Collection",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponse.sendError",
+      "parameters": [
+        "int",
+        "java.lang.String"
+      ],
+      "signature": "void javax.servlet.http.HttpServletResponse.sendError(int, java.lang.String)",
+      "framework": "",
+      "link": "",
+      "comment": "javax.servlet.http.HttpServletResponse",
+      "discovery": "find-sec-bugs",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": true,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": {
+        "compiled": "javax.servlet.jar",
+        "sources": "",
+        "identifier": ""
+      },
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": true,
+      "jar": null
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getServerPort",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "int",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.Cookie.Cookie",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "java.io.PrintWriter.flush",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponse.setStatus",
+      "parameters": [
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getInputStream",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.ServletInputStream",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponse.addHeader",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.String"
+      ],
+      "signature": "void javax.servlet.http.HttpServletResponse.addHeader(java.lang.String, java.lang.String)",
+      "framework": "",
+      "link": "",
+      "comment": "javax.servlet.http.HttpServletResponse",
+      "discovery": "find-sec-bugs",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE443"
+      ],
+      "known": true,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": {
+        "compiled": "javax.servlet.jar",
+        "sources": "",
+        "identifier": ""
+      },
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": true,
+      "jar": null
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.setBufferSize",
+      "parameters": [
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.encodeURL",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getRemoteUser",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getRealPath",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getUserPrincipal",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.security.Principal",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.setHeader",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getRequestURI",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.upgrade",
+      "parameters": [
+        "java.lang.Class"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.http.HttpUpgradeHandler",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponse.setBufferSize",
+      "parameters": [
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getPathInfo",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getParameterMap",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.util.Map",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponse.setHeader",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.String"
+      ],
+      "signature": "void javax.servlet.http.HttpServletResponse.setHeader(java.lang.String, java.lang.String)",
+      "framework": "",
+      "link": "",
+      "comment": "javax.servlet.http.HttpServletResponse",
+      "discovery": "find-sec-bugs",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE443"
+      ],
+      "known": true,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": {
+        "compiled": "javax.servlet.jar",
+        "sources": "",
+        "identifier": ""
+      },
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": true,
+      "jar": null
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequest.logout",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [
+        "CWE862",
+        "CWE863",
+        "CWE306"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getReader",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.io.BufferedReader",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "java.lang.Exception.Exception",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.Throwable"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper._getHttpServletResponse",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.http.HttpServletResponse",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.reset",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.logout",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [
+        "CWE862",
+        "CWE863",
+        "CWE306"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.getLocale",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.util.Locale",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletContext.log",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.Throwable"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getRequest",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.ServletRequest",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.AsyncEvent.getSuppliedRequest",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.ServletRequest",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.isWrapperFor",
+      "parameters": [
+        "javax.servlet.ServletRequest"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "boolean",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.addHeader",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletContextAttributeEvent.ServletContextAttributeEvent",
+      "parameters": [
+        "javax.servlet.ServletContext",
+        "java.lang.String",
+        "java.lang.Object"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.HttpServletRequestWrapper",
+      "parameters": [
+        "javax.servlet.http.HttpServletRequest"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletException.ServletException",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.Throwable"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getRequestedSessionId",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponse.setDateHeader",
+      "parameters": [
+        "java.lang.String",
+        "long"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.AsyncEvent.AsyncEvent",
+      "parameters": [
+        "javax.servlet.AsyncContext",
+        "javax.servlet.ServletRequest",
+        "javax.servlet.ServletResponse",
+        "java.lang.Throwable"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.setContentType",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.setLocale",
+      "parameters": [
+        "java.util.Locale"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.isWrapperFor",
+      "parameters": [
+        "javax.servlet.ServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "boolean",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.isSecure",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "boolean",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.getResponse",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.ServletResponse",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.NoBodyResponse.setHeader",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getLocalPort",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "int",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getHeader",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.setCharacterEncoding",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.setResponse",
+      "parameters": [
+        "javax.servlet.ServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpUtils.parsePostData",
+      "parameters": [
+        "int",
+        "javax.servlet.ServletInputStream"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.util.Hashtable",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "java.lang.StringBuilder.append",
+      "parameters": [
+        "char"
+      ],
+      "signature": "java.lang.StringBuilder java.lang.StringBuilder.append(char)",
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "Secucheck",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "propagator"
+      ],
+      "cwe": [],
+      "known": true,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": {
+        "compiled": "",
+        "sources": "",
+        "identifier": ""
+      },
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.StringBuilder",
+      "interface": false,
+      "jar": null
+    },
+    {
+      "name": "javax.servlet.http.NoBodyResponse.addIntHeader",
+      "parameters": [
+        "java.lang.String",
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.encodeRedirectURL",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE601"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getLocale",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.util.Locale",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.ServletRequestWrapper",
+      "parameters": [
+        "javax.servlet.ServletRequest"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.containsHeader",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "boolean",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.startAsync",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.AsyncContext",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getQueryString",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getContentLengthLong",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "long",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestEvent.getServletRequest",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.ServletRequest",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.setStatus",
+      "parameters": [
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.setStatus",
+      "parameters": [
+        "int",
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.NoBodyResponse.NoBodyResponse",
+      "parameters": [
+        "javax.servlet.http.HttpServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.isAsyncStarted",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "boolean",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.flushBuffer",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getRequestDispatcher",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.RequestDispatcher",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.getHeaders",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.util.Collection",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponse.flushBuffer",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServlet.doDelete",
+      "parameters": [
+        "javax.servlet.http.HttpServletRequest",
+        "javax.servlet.http.HttpServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponse.setStatus",
+      "parameters": [
+        "int",
+        "java.lang.String"
+      ],
+      "signature": "void javax.servlet.http.HttpServletResponse.setStatus(int, java.lang.String)",
+      "framework": "",
+      "link": "",
+      "comment": "javax.servlet.http.HttpServletResponse",
+      "discovery": "find-sec-bugs",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": true,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": {
+        "compiled": "javax.servlet.jar",
+        "sources": "",
+        "identifier": ""
+      },
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": true,
+      "jar": null
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.getOutputStream",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.ServletOutputStream",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getAttribute",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.Object",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getPathTranslated",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.isRequestedSessionIdFromURL",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "boolean",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getRemotePort",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "int",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.UnavailableException.UnavailableException",
+      "parameters": [
+        "java.lang.String",
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestEvent.ServletRequestEvent",
+      "parameters": [
+        "javax.servlet.ServletContext",
+        "javax.servlet.ServletRequest"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source",
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.addIntHeader",
+      "parameters": [
+        "java.lang.String",
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getRemoteAddr",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "java.lang.Enum.Enum",
+      "parameters": [
+        "java.lang.String",
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getIntHeader",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "int",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getParameterNames",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.util.Enumeration",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.NoBodyOutputStream.write",
+      "parameters": [
+        "byte[]",
+        "int",
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getServletContext",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.ServletContext",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "java.io.CharConversionException.CharConversionException",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "java.lang.RuntimeException.RuntimeException",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE78"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpUtils.getRequestURL",
+      "parameters": [
+        "javax.servlet.http.HttpServletRequest"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.StringBuffer",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "java.io.OutputStream.write",
+      "parameters": [
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.getBufferSize",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "int",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.resetBuffer",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.AsyncEvent.AsyncEvent",
+      "parameters": [
+        "javax.servlet.AsyncContext",
+        "java.lang.Throwable"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "java.util.Hashtable.put",
+      "parameters": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "java.lang.Object",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponse.sendRedirect",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": "void javax.servlet.http.HttpServletResponse.sendRedirect(java.lang.String)",
+      "framework": "",
+      "link": "",
+      "comment": "javax.servlet.http.HttpServletResponse",
+      "discovery": "find-sec-bugs",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE601"
+      ],
+      "known": true,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": {
+        "compiled": "javax.servlet.jar",
+        "sources": "",
+        "identifier": ""
+      },
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": true,
+      "jar": null
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.isWrapperFor",
+      "parameters": [
+        "java.lang.Class"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "boolean",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponse.addDateHeader",
+      "parameters": [
+        "java.lang.String",
+        "long"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getContentLength",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "int",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.NoBodyResponse.setContentLength",
+      "parameters": [
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestAttributeEvent.ServletRequestAttributeEvent",
+      "parameters": [
+        "javax.servlet.ServletContext",
+        "javax.servlet.ServletRequest",
+        "java.lang.String",
+        "java.lang.Object"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source",
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponse.setLocale",
+      "parameters": [
+        "java.util.Locale"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.changeSessionId",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.isAsyncSupported",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "boolean",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.NoBodyResponse.setContentLengthLong",
+      "parameters": [
+        "long"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.MultipartConfigElement.getMaxRequestSize",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "long",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.UnavailableException.UnavailableException",
+      "parameters": [
+        "javax.servlet.Servlet",
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.authenticate",
+      "parameters": [
+        "javax.servlet.http.HttpServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [
+        "CWE862",
+        "CWE863",
+        "CWE306"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "boolean",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.NoBodyResponse.setIntHeader",
+      "parameters": [
+        "java.lang.String",
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "java.lang.StringBuilder.append",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": "java.lang.StringBuilder java.lang.StringBuilder.append(java.lang.String)",
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "Secucheck",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "propagator"
+      ],
+      "cwe": [],
+      "known": true,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": {
+        "compiled": "",
+        "sources": "",
+        "identifier": ""
+      },
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.StringBuilder",
+      "interface": false,
+      "jar": null
+    },
+    {
+      "name": "javax.servlet.ServletRequest.setAttribute",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.Object"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source",
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.GenericServlet.log",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.ServletResponseWrapper",
+      "parameters": [
+        "javax.servlet.ServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.UnavailableException.UnavailableException",
+      "parameters": [
+        "int",
+        "javax.servlet.Servlet",
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.HttpConstraintElement.HttpConstraintElement",
+      "parameters": [
+        "javax.servlet.'annotation'.ServletSecurity$EmptyRoleSemantic",
+        "javax.servlet.'annotation'.ServletSecurity$TransportGuarantee",
+        "java.lang.String[]"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletContext.log",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServlet.doTrace",
+      "parameters": [
+        "javax.servlet.http.HttpServletRequest",
+        "javax.servlet.http.HttpServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.setDateHeader",
+      "parameters": [
+        "java.lang.String",
+        "long"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestEvent.getServletContext",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.ServletContext",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.NoBodyOutputStream.write",
+      "parameters": [
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.getStatus",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "int",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.MultipartConfigElement.MultipartConfigElement",
+      "parameters": [
+        "java.lang.String",
+        "long",
+        "long",
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServlet.doHead",
+      "parameters": [
+        "javax.servlet.http.HttpServletRequest",
+        "javax.servlet.http.HttpServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponse.setCharacterEncoding",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequest.removeAttribute",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getDateHeader",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "long",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponse.sendError",
+      "parameters": [
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestAttributeEvent.getName",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.login",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source",
+        "sink"
+      ],
+      "cwe": [
+        "CWE862",
+        "CWE863",
+        "CWE306"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponse.setIntHeader",
+      "parameters": [
+        "java.lang.String",
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponse.addIntHeader",
+      "parameters": [
+        "java.lang.String",
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getPart",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.http.Part",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequest.login",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source",
+        "sink"
+      ],
+      "cwe": [
+        "CWE862",
+        "CWE863",
+        "CWE306"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.getCharacterEncoding",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServlet.doOptions",
+      "parameters": [
+        "javax.servlet.http.HttpServletRequest",
+        "javax.servlet.http.HttpServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.setCharacterEncoding",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getHeaders",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.util.Enumeration",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getContextPath",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.sendError",
+      "parameters": [
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getParameterValues",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String[]",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequest.setCharacterEncoding",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getAuthType",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.setRequest",
+      "parameters": [
+        "javax.servlet.ServletRequest"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletRequestWrapper.getDispatcherType",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.DispatcherType",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponse.setContentLength",
+      "parameters": [
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.ServletResponseWrapper.setContentLength",
+      "parameters": [
+        "int"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "java.io.OutputStreamWriter.OutputStreamWriter",
+      "parameters": [
+        "java.io.OutputStream",
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": false,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getHeaderNames",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.util.Enumeration",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServlet.doGet",
+      "parameters": [
+        "javax.servlet.http.HttpServletRequest",
+        "javax.servlet.http.HttpServletResponse"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.getSession",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.http.HttpSession",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletResponseWrapper.encodeUrl",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.lang.String",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.NoBodyResponse.getWriter",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "java.io.PrintWriter",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpServletRequestWrapper.isUserInRole",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "source"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "boolean",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.HttpSessionBindingEvent.HttpSessionBindingEvent",
+      "parameters": [
+        "javax.servlet.http.HttpSession",
+        "java.lang.String"
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "void",
+      "interface": false,
+      "jar": ""
+    },
+    {
+      "name": "javax.servlet.http.NoBodyResponse.getOutputStream",
+      "parameters": [
+        ""
+      ],
+      "signature": null,
+      "framework": "",
+      "link": "",
+      "comment": "",
+      "discovery": "",
+      "dataIn": {
+        "parameters": [],
+        "return": false
+      },
+      "dataOut": {
+        "parameters": [],
+        "return": false
+      },
+      "srm": [
+        "sink"
+      ],
+      "cwe": [
+        "CWE79"
+      ],
+      "known": false,
+      "body": null,
+      "javadoc": {
+        "method": "",
+        "class": ""
+      },
+      "artifacts": null,
+      "usages": null,
+      "applicationMethod": true,
+      "return": "javax.servlet.ServletOutputStream",
+      "interface": false,
+      "jar": ""
+    }
+  ],
+  "version": null
+}
