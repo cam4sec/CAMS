@@ -1,6 +1,7 @@
 package de.upb.ra;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import de.upb.ra.data.outpuModel.InvokedSrmInfo;
 import de.upb.ra.metrics.*;
 import de.upb.ra.securityCriticalityAssessmentModel.LowLevelMeasure;
 import de.upb.ra.securityCriticalityAssessmentModel.CAMS;
@@ -63,6 +64,8 @@ public class SCLCalculator {
             for (val classMethod : new ArrayList<>(appClass.getMethods())) {
                 // Weakness Category to its associated invoked SRM in the current method
                 HashMap<String, List<WiSeM>> categoryToInvokedSrmMap = new HashMap<>();
+                // Details of every SRM call site in the current method (only for the output files)
+                List<InvokedSrmInfo> invokedSrmInfos = new ArrayList<>();
 
                 //TODO: Check for ResponseBody (also RequestParam) annotation here and add that to the basemetricinfo
                 if (!config.isIgnoreDefaultAnnotationSrms() && hasResponseBody(classMethod)) {
@@ -77,6 +80,7 @@ public class SCLCalculator {
                         val category = config.getCweToWeaknessCategoryMap().get("CWE-80");
                         categoryToInvokedSrmMap.putIfAbsent(category, new ArrayList<>());
                         categoryToInvokedSrmMap.get(category).add(srm);
+                        invokedSrmInfos.add(toInvokedSrmInfo(srm, getFirstSourceLine(classMethod), category));
                     }
 
                 }
@@ -91,6 +95,7 @@ public class SCLCalculator {
 
                         categoryToInvokedSrmMap.putIfAbsent(category, new ArrayList<>());
                         categoryToInvokedSrmMap.get(category).add(matchedSrm);
+                        invokedSrmInfos.add(toInvokedSrmInfo(matchedSrm, invokedMethod.getLineNumber(), category));
                     }
                 }
 
@@ -99,6 +104,9 @@ public class SCLCalculator {
                         methodName,
                         getCAMS(categoryToInvokedSrmMap)
                 );
+                invokedSrmInfos.sort(Comparator.comparingInt(InvokedSrmInfo::getLineNumber)
+                        .thenComparing(InvokedSrmInfo::getSrmSignature));
+                sclForAMethod.setInvokedSrms(invokedSrmInfos);
                 sclForAClass.add(sclForAMethod);
             }
 
@@ -108,6 +116,44 @@ public class SCLCalculator {
         }
 
         return sclForAllMethodsInApp;
+    }
+
+    /**
+     * The @ResponseBody sink is an annotation, so it has no call site.
+     * We report the first source line of the method body instead (-1 if the bytecode has no line info).
+     */
+    private static int getFirstSourceLine(SootMethod method) {
+        try {
+            if (!method.isConcrete()) {
+                return -1;
+            }
+            int firstLine = Integer.MAX_VALUE;
+            for (val unit : method.retrieveActiveBody().getUnits()) {
+                int line = unit.getJavaSourceStartLineNumber();
+                if (line > 0 && line < firstLine) {
+                    firstLine = line;
+                }
+            }
+            return firstLine == Integer.MAX_VALUE ? -1 : firstLine;
+        } catch (RuntimeException e) {
+            return -1;
+        }
+    }
+
+    private InvokedSrmInfo toInvokedSrmInfo(WiSeM srm, int lineNumber, String weaknessCategory) {
+        val roles = srm.getTaintSpecificScoredSrms().stream()
+                .map(role -> role.getTaintSpecificSrm().getSrmCategory())
+                .distinct()
+                .sorted()
+                .toList();
+
+        val cwes = srm.getCweSpecificScoredSrms().stream()
+                .map(cwe -> cwe.getCweSpecificSrm().getCweName())
+                .distinct()
+                .sorted()
+                .toList();
+
+        return new InvokedSrmInfo(srm.getInvokedMethodSignature(), lineNumber, roles, cwes, weaknessCategory);
     }
 
     private CAMS getCAMS(Map<String, List<WiSeM>> categoryToInvokedSrmMap) {

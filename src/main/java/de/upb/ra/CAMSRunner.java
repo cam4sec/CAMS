@@ -81,13 +81,15 @@ public class CAMSRunner {
                         signature,
                         scis,
                         weaknessCategoryRatings,
-                        methodToLevelMap.getOrDefault(signature, "NA"))
+                        methodToLevelMap.getOrDefault(signature, "NA"),
+                        sclForAMethod.getInvokedSrms())
                 );
                 rankedRawWSRMF.add(new CriticalityInfo(
                         signature,
                         rawWSRMF,
                         weaknessCategoryRatings,
-                        methodToLevelMap.getOrDefault(signature, "NA"))
+                        methodToLevelMap.getOrDefault(signature, "NA"),
+                        sclForAMethod.getInvokedSrms())
                 );
             }
         }
